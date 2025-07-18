@@ -21,10 +21,18 @@
 // }
     
  
-for (let i = 1 ; i <= 7; i++){
-    let row = "";
-    for(let j = 1 ; j <= i; j++){
-        row = row + " * ";
-    } console.log(row);
+// for (let i = 1 ; i <= 7; i++){
+//     let row = "";
+//     for(let j = 1 ; j <= i; j++){
+//         row = row + " * ";
+//     } console.log(row);
 
+// }
+
+
+for(i = 0 ; i <= 100; i++){
+    if ( i % 2 === 0){
+        console.log("this is even number " + i);
+    }
 }
+
