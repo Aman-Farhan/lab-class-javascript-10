@@ -37,10 +37,62 @@
 // }
 
 
-let arrey = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
-// let count = ;
-for (i= 0; i < arrey.length;  i++){
-    if(arrey[i]>10){
-    console.log(arrey[i]);
-}
-}
+// let arrey = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+// let greaterCount = ;
+// let lessCount = ;
+// for (i= 0; i < arrey.length;  i++){
+//     if(arrey[i]>10){
+//         greaterCount++;
+//     }
+//     else {
+//         lessCount++;
+//         }
+// }
+// console.log( "hdthjy" +greaterCount);
+// console.log(arrey[i]);
+
+
+
+
+// let arrey = [1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20];
+// // let count = ;
+// for (i= 0; i < arrey.length;  i++){
+//     if(arrey[i]>10){
+//     console.log(arrey[i]);
+// }
+// }
+
+
+
+/*
+.length
+
+push()
+pop()
+shift()
+unshift()
+indexOF()
+splice()
+
+slice()
+
+*/ 
+
+
+// firstName = "aman";
+// console.log(firstName.length);
+// console.log(firstName.slice(2));
+
+
+//  to UperCase :
+
+// let firstName = prompt("Enter A Number");
+// let uperName = firstName[0].toUpperCase();
+// let lowerName = firstName.slice(1).toLowerCase();
+
+// console.log(uperName + lowerName);
+
+let firstName = prompt("enter a name");
+let uperName = firstName[0].toUpperCase();
+let lowerName = firstName.slice(1).toLowerCase()
+console.log(uperName + lowerName);
