@@ -95,4 +95,4 @@ console.log(uperName + lowerName);
 // let firstName = prompt("enter a name");
 // let uperName = firstName[0].toUpperCase()
 // let lowerName = firstName.slice(1).toLowerCase()
-// console.log(uperName + lowerName);
+// console.log(uperName + lowerName)
