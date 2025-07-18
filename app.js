@@ -21,10 +21,10 @@
 // }
     
  
-for (let i = 0 ; i < 4; i++){
+for (let i = 1 ; i <= 7; i++){
     let row = "";
-    for(let j = 0 ; j < 7; j++){
+    for(let j = 1 ; j <= i; j++){
         row = row + " * ";
-    } console.log(row , i);
+    } console.log(row);
 
 }
