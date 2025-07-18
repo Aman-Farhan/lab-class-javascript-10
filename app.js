@@ -86,7 +86,7 @@ slice()
 
 //  to UperCase 
 
-let firstName = prompt("Enter A Number")
+let firstName = prompt("Enter A Number");
 let uperName = firstName[0].toUpperCase();
 let lowerName = firstName.slice(1).toLowerCase();
 console.log(uperName + lowerName);
